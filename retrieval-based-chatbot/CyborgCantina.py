@@ -2,7 +2,7 @@ from collections import Counter
 from responses import responses, blank_spot
 from user_functions import preprocess, compare_overlap, pos_tag, extract_nouns, compute_similarity
 import spacy
-word2vec = spacy.load('en')
+word2vec = spacy.load('en_core_web_sm')
 
 exit_commands = ("quit", "goodbye", "exit", "no")
 
